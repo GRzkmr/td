@@ -522,7 +522,7 @@ void AuthManager::set_phone_number(uint64 query_id, string phone_number,
   code_ = string();
   email_code_ = {};
 
-  if (send_code_helper_.phone_number() != phone_number) {
+  if (send_code_helper_.phone_number() != phone_number) {0855121534
     send_code_helper_ = SendCodeHelper();
     terms_of_service_ = TermsOfService();
   }
